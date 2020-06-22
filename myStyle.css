@@ -1,0 +1,67 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 5px;
+    background-image: url("backg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    margin: 30px 0 25px 0;
+    color: rgb(61, 23, 16);
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.lbltitle {
+    width: 30%;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 30px;
+    color: rgb(27, 22, 102);
+}
+
+.lblinput,
+.lbloutput {
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+}
+
+.submit {
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.menu {
+    font-size: 20px;
+    color: rgb(71, 118, 150);
+    margin: 10px;
+    width: 100%;
+}
